@@ -1,5 +1,3 @@
-var botinfo = {};
-
 function joinGame(code, name, icog = false) {
   if (botinfo.connecting) {
     console.log("Connecting to game, please wait...");
@@ -19,7 +17,7 @@ async function connect(gid, name, icog, reqbody = false) {
   console.log("Fetching token...");
   const body = reqbody
     ? reqbody
-    : await fetch("join", {
+    : await fetch("https://fb.blooket.com/c/firebase/join", {
         body: JSON.stringify({ id: gid, name: name }),
         headers: { "Content-Type": "application/json" },
         method: "POST",
