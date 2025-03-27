@@ -1,4 +1,6 @@
 # Blooket Bot (Hobby Project)
+**IMPORTANT!** This code is created by scraping code off of another source, and any publically avaliable API keys are NOT mine. 
+
 
 ## Overview  
 This project is a simple bot designed to join Blooket games automatically. It is meant to handle game authentication, connects to Firebase (Firebase endpoint remains unresolved), and (supposed to) update the game state in real time. The bot simulates a player joining a game and interacting with the Firebase database.
