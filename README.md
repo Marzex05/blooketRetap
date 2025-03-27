@@ -15,7 +15,7 @@ This project is a simple bot designed to join Blooket games automatically. It is
 - Listens for real-time updates to game data.
 
 ## Future Development  
-This is a **hobby project** and likely **won't be actively developed further**. However, anyone interested in understanding how Blooket's game connection works can explore and build upon it.
+This is a **hobby project** and likely **won't be actively developed further**. However, anyone interested in understanding how Blooket's game connection works can explore and build upon it. If you have any personal questions, suggestions, or alterations you want to add, feel free to create a pull request or issue and I'll get to them ASAP.
 
 ---
 💡 *This project is for educational purposes only. Use responsibly!*  
