@@ -17,7 +17,7 @@ async function connect(gid, name, icog, reqbody = false) {
   console.log("Fetching token...");
   const body = reqbody
     ? reqbody
-    : await fetch("https://fb.blooket.com/c/firebase/join", {
+    : await fetch("https://fb.blooket.com/c/firebase/join", { //THIS IS SUPPOSED TO BE THE ENDPOINT FOR FIREBASE BUT CORS OR WHATEVER RETURNS A 404 PAGE.
         body: JSON.stringify({ id: gid, name: name }),
         headers: { "Content-Type": "application/json" },
         method: "POST",
